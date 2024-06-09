@@ -262,7 +262,6 @@ video {
 
 .bg_frame__5{
   background-color: rgb(0, 0, 0);
-  box-shadow: red 15px 15px 
 }
 .nature_elements_five{
   display: flex;
@@ -436,10 +435,12 @@ video {
 .ps__pult_text_two{
   padding-top: 28px;
 }
-.onesa_page{
+.onesa_page {
   display: flex;
   gap: 25px;
   padding-bottom: 50px;
+  justify-content: center;
+  align-items: center;
 }
 .two___pages{
   display: flex;
@@ -624,6 +625,12 @@ button{
     justify-content: center;
   }
 }
+@media (max-width: 683px) {
+  .head_fire{
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media (max-width: 740px) {
   .All_text{
     padding-top: 20px;
@@ -762,12 +769,18 @@ button{
     height: 200vh;
     width: 100%;
   }
+  .fornite_dance_player{
+    margin: 0 auto;
+    margin-top: 70px;
+    max-width: 100%;
+  }
   .fire_frame_p{
     width: 100%;
   }
   .video_text{
     width: 100%;
-    padding-top: 55px;
+    margin-top: 50px;
+    margin-bottom: -50px;
   }
   .error_text_four{
     width: 100%;
@@ -832,7 +845,7 @@ button{
     padding: 0;
   }
   .four_fire{
-    /* margin: 0 auto; */
+    margin: 0 auto;
   }
   .future_four_p{
     margin: 0 auto;
@@ -846,6 +859,20 @@ button{
   }
   .nature_element_four{
     margin-top: -50px;
+  }
+  .fire_frame_p{
+    margin-bottom: -30px;
+  }
+}
+@media (max-width: 524px){
+  .four__btn{
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 681px) {
+  .error_text_four{
+    margin-top: 90px;
   }
 }
 
@@ -878,5 +905,132 @@ button{
   }
   .four__btn{
     padding-top: 130px;
+  }
+}
+
+/* NEX PAGE MEDIA start */
+@media (max-width: 1325px){
+  .onesa_page{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 750px) {
+  .nature_element_six{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Arslon_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .video_text_six{
+    text-align: center;
+    margin: 0 auto;
+  }
+  .six_btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .rnd__btn{
+    margin: 0 auto;
+    margin-bottom: -65px;
+  }
+}
+@media (max-width: 683px){
+  .rnd__btn{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .onesa_page{
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .ps_pult_for_bg{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .two___pages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .two_in_one_2{
+    margin-right: 25px;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 655px) {
+  .ps_texts{
+    max-width: 100%;
+    text-align: center;
+  }
+  .ps__pult_text_two{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  .ps_five_controler{
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 605px) {
+  .ps__pult_text_two{
+    max-width: 100%;
+    width: 400px;
+  }
+  .two___pages{
+    margin-top: 90px;
+  }
+  .video_text_six{
+    max-width: 100%;
+  }
+}
+@media (max-width: 499px){
+  .rnd__btn{
+    margin-top: 110px;
+  }
+  .ps_five_controler{
+    width: 350px;
+  }
+}
+@media(max-width: 400px){
+  .ps_five_controler{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ps_pult_for_bg{
+    max-width: 50%;
+    margin-left: -40px;
+  }
+  .ps__pult{
+    max-width: 50%;
+  }
+  .ps__pult_text_two{
+    margin-left: -10px;
+  }
+}
+
+@media (max-width: 390px) {
+  .thumbnail{
+    width: 350px;
+  }
+}
+@media (max-width: 512px) {
+  .thumbnail{
+    width: 350px;
   }
 }
