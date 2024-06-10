@@ -14,6 +14,7 @@ header {
 
 .navbar-shrink {
   background: var(--redShrink);
+  backdrop-filter: blur(2px);
 }
 nav {
   display: flex;
