@@ -1110,3 +1110,187 @@ button{
     max-width: 100%;
   }
 }
+
+
+
+
+.Finish {
+  background-image: url(../images/game-bg/yellow_bg.svg);
+  height: 130vh;
+  background-size: cover;
+  width: 100%;
+}
+
+.the_end {
+  padding: 200px 10px 350px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 670px;
+  top: 129.61px;
+  left: 296.5px;
+}
+.text_the_end {
+  max-width: 847px;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 82px;
+  text-align: center;
+}
+.little_text {
+  width: 718px;
+  height: 87px;
+  top: 211.39px;
+  left: 64.5px;
+  gap: 0px;
+  opacity: 0px;
+  margin: 82px 0 46px 0;
+}
+.finish_btn {
+  width: 670px;
+  height: 80px;
+  top: 343px;
+  left: 88.5px;
+  display: flex;
+}
+#your_email {
+  border: none;
+  font-family: Orbitron;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 445px;
+  height: 70px;
+  top: 5.39px;
+  background-color: var(--whiteColor);
+}
+.subscrib_now {cursor: pointer;
+  width: 221px;
+  height: 70px;
+  top: 5.39px;
+  left: 445px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--toRightBlue);
+  color: var(--title-color);
+  /* transition: .2.5s ease; */
+}
+.subscrib_now:active{
+  background-color: rgb(255, 0, 0);
+  /* transition: .2.5s ease; */
+}
+@media (max-width: 1350px) {
+  .onesa_page {
+    display: flex;
+    flex-direction: column;
+  }
+  .ps_five_controler {
+    width: 100%;
+  }
+  .nature_element_six {
+    display: flex;
+    flex-direction: column;
+  }
+  .rnd__btn {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 670px) {
+  .video_text_six {
+    width: 100%;
+  }
+  .two___pages {
+    display: flex;
+    flex-direction: column;
+  }
+  .gamer_boyy {
+    width: 100%;
+  }
+  .ps__pult_text_one {
+    width: 100%;
+  }
+  .ps__pult_text_two {
+    width: 100%;
+  }
+  .game_table_table {
+    width: 100%;
+  }
+  .kyb_kyb {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .club_club {
+    width: 100%;
+  }
+}
+@media (max-width: 444px) {
+  .text_the_end {
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .finish_btn {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 330px) {
+  .gamer_boy_text_two {
+    width: 100%;
+  }
+  .table_text {
+    text-align: center;
+  }
+  .rnd__btn {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 723px) {
+  .text_the_end {
+    width: 100%;
+  }
+  .little_text {
+    width: 100%;
+  }
+  .text_the_end {
+    width: 100%;
+  }
+
+  .finish_btn {
+    width: 100%;
+  }
+}
+@media (max-width: 655px) {
+  .finish_btn {
+    width: 225px;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+  }
+  .the_end {
+    padding-top: 300px;
+  }
+  #your_email {
+    width: 221px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .subscrib_now {
+    width: 221px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+.mode_btn_image {
+  width: 48px;
+  height: 48px;
+}

@@ -27,3 +27,23 @@
 .dark .game-bg__btn {
   background-color: var(--toRightDark);
 }
+.dark .yellow_section {
+  background-color: rgb(143, 143, 143);
+}
+.dark .game-bg__btn{
+  background-color: var(--brownColor);
+}
+.dark .two_section_brends:hover{
+  /* background-color: #0056b3; Darker blue background */
+    /* color: #ff0000; Gold text color */
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.8); /* Glow effect */
+    border-radius: 15px;
+}
+.dark .thumbnail{
+  transition: .5s ease;
+}
+.dark .thumbnail:hover{
+  box-shadow: 0 0 100px rgba(255, 0, 0, 0.8);
+  border-radius: 50px;
+  transition: .5s ease;
+}
