@@ -25,3 +25,15 @@ document.addEventListener("DOMContentLoaded", () => {
     navBtnId.classList.toggle("activeBtn");
   });
 });
+
+// dark mode
+let modeBtn = document.getElementById("mode-btn");
+
+modeBtn.addEventListener("click", function () {
+  if (document.body.className != "dark") {
+    this.firstElementChild.src = "./images/header/sun.svg";
+  } else {
+    this.firstElementChild.src = "./images/header/moon.svg";
+  }
+  document.body.classList.toggle("dark");
+});
