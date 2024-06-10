@@ -477,10 +477,11 @@ video {
 footer{
   margin: 0 auto;
   background-image: url(../images/game-bg/yellow_bg.svg);
-  width: 1440px;
+  max-width: 100%;
   height: 683px;
-  gap: 0px;
-  opacity: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer_one_text_h2{
@@ -492,14 +493,14 @@ footer{
   line-height: 82px;
   text-align: center;
   color: rgba(20, 24, 32, 1);
-  width: 746px;
+  max-width: 100%;
   height: 164px;
   top: -3.61px;
   left: 50.5px;
-  gap: 0px;
-  opacity: 0px;
+  
 }
 .footer_two_text_two{
+  width: 100%;
   text-align: center;
   font-family: Orbitron;
   font-size: 17px;
@@ -509,6 +510,7 @@ footer{
   color: rgba(85, 85, 85, 1);
 }
 .footer_two_text{
+  width: 100%;
   padding-top: 200px;
   text-align: center;
 }
@@ -518,7 +520,8 @@ footer{
   font-weight: 400;
   line-height: 28px;
   text-align: center;
-  width: 846px;
+  /* max-width:  846px; */
+  width: 100%;
   height: 56px;
   top: 242.39px;
   left: 0.5px;
@@ -536,7 +539,7 @@ footer{
   margin: 0 auto;
   margin-top: 50px;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   border: 1px solid #ddd;
   border-radius: 3px;
   overflow: hidden;
@@ -580,7 +583,6 @@ button{
   padding-left: 300px;
   width: 720px;
 }
-
 @media (max-width: 1330px) {
   .bg_nature{
     height: 180vh;
@@ -1032,5 +1034,79 @@ button{
 @media (max-width: 512px) {
   .thumbnail{
     width: 350px;
+  }
+}
+
+
+/* next page media start */
+
+@media (max-width: 773px){
+  .footer_one_text_h2{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blue_line_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 50px;
+  }
+  .footer_two_text{
+    margin-top: -100px;
+  }
+}
+@media(max-width: 624px){
+  .footer_two_text{
+    margin-top: 20px;
+  }
+}
+@media(max-width: 560px){
+  .footer_one_text_h2{
+    margin-top: 45px;
+  }
+  footer{
+    height: 130vh;
+  }
+}
+@media(max-width: 525px){
+  .subscribe-container{
+    max-width: 100%;
+  }
+}
+@media (max-width: 482px){
+  .footer_all_texts{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  footer{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_one_text{
+    margin: 0 auto;
+  }
+  .footer_one_text_h2{
+    max-width: 100%;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    padding-top:200px;
+  }
+  .footer_two_text_two{
+    max-width: 100%;
+    width: 400px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .subscribe-container{
+    max-width: 100%;
   }
 }
