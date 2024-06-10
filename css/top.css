@@ -10,7 +10,7 @@
   --redShrink: rgba(0, 162, 255, 0.521);
   --whiteColor: rgba(255, 255, 255, 1);
   --gameFutureColor: rgba(87, 184, 255, 1);
-  --gameBgP: rgba(153, 153, 153, 1);
+  --gameBgP: rgba(153, 153, 153, 0.575);
   --yellovColor: rgb(252, 208, 76);
   --brownColor: rgb(184, 37, 37);
 }
